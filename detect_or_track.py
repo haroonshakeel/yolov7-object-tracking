@@ -15,7 +15,7 @@ from utils.general import check_img_size, check_requirements, \
 from utils.plots import plot_one_box
 from utils.torch_utils import select_device, load_classifier, time_synchronized, TracedModel
 
-from sortr import *
+from sort import *
 
 
 """Function to Draw Bounding boxes"""
