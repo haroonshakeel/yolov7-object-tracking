@@ -23,9 +23,8 @@ You can find the complete tutorial [Here](https://www.youtube.com/channel/UCcNga
 * [x] Track color is the same as the bbox color
 * [x] Add flag to enable different color for each track
 
-
- ### References
- - https://github.com/RizwanMunawar/yolov7-object-tracking
- - https://github.com/WongKinYiu/yolov7
- - https://github.com/abewley/sort
-
+# Credits  
+  * [WongKinYiu Yolov7 Repo](https://github.com/WongKinYiu/yolov7)
+  * [RizwanMunawar Yolov7 Object Tracking Repo](https://github.com/RizwanMunawar/yolov7-object-tracking)
+  * [abewley SORT Repo](https://github.com/abewley/sort)
+  * [TheAIGuy DeepSort Repo](https://github.com/theAIGuysCode/yolov4-deepsort)
