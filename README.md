@@ -6,6 +6,11 @@
 Multiple object tracking with YOLOv7 and SORT. 
 
 This repository is created for the channel [TheCodingBug](https://www.youtube.com/channel/UCcNgapXcZkyW10FIOohZ1uA).
+You can find the complete tutorial [Here](https://www.youtube.com/channel/UCcNgapXcZkyW10FIOohZ1uA).
+
+# Object Tracking Results ``YOLOv7`` Weights
+
+<p align="center"><img src="test.gif" width="640"\></p>
 
 # TO DO
 * [x] Add flag to enable tracking
@@ -17,8 +22,6 @@ This repository is created for the channel [TheCodingBug](https://www.youtube.co
 * [x] Add flag to draw track
 * [x] Track color is the same as the bbox color
 * [x] Add flag to enable different color for each track
-* [x] yolov4 tflite version
-* [x] yolov4 in8 tflite version for mobile
 
 
  ### References
