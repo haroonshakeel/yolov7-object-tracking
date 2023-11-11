@@ -167,7 +167,7 @@ def detect(save_img=False):
                         confidences = None
                         if save_txt:  # Write to file
                             for i in range(len(tracked_dets)):
-                                xywh = bbox_xyxy[i]  # normalized xywh
+                                xywh = (xyxy2xywh(torch.tensor(bbox_xyxy).view(1, 4)) / gn).view(-1).tolist()  # normalized xywh
                                 line = (identities[i], categories[i], *xywh)  # label format
                                 with open(txt_path + '.txt', 'a') as f:
                                     f.write(names[int(categories[i])] +' ' + ('%g ' * len(line)).rstrip() % line + '\n')
